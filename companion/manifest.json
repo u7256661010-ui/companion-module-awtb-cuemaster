@@ -1,0 +1,22 @@
+{
+	"$schema": "../node_modules/@companion-module/base/assets/manifest.schema.json",
+	"id": "awtb-cuemaster",
+	"name": "awtb-cuemaster",
+	"shortname": "CueMaster",
+	"description": "Control the CueMaster jingle player: fire, stop and fade cues, switch banks, show tile names, colours and remaining time.",
+	"version": "0.0.0",
+	"license": "MIT",
+	"repository": "git+https://github.com/u7256661010-ui/companion-module-awtb-cuemaster.git",
+	"bugs": "https://github.com/u7256661010-ui/companion-module-awtb-cuemaster/issues",
+	"maintainers": [{ "name": "Advanced Works" }],
+	"runtime": {
+		"type": "node22",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../src/main.js"
+	},
+	"legacyIds": [],
+	"manufacturer": "Advanced Works",
+	"products": ["CueMaster"],
+	"keywords": ["jingle", "audio", "playback", "cue", "sound"]
+}
